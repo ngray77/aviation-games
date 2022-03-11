@@ -1,0 +1,31 @@
+{
+  "name": "aviation-games",
+  "version": "1.0.0",
+  "description": "Let's see what happens",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngray77/aviation-games.git"
+  },
+  "author": "Noah Gray <ngray@launchps.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngray77/aviation-games/issues"
+  },
+  "homepage": "https://github.com/ngray77/aviation-games#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "d3": "^7.3.0",
+    "lodash": "^4.17.21"
+  }
+}
